@@ -1,0 +1,2 @@
+"use strict";!function(o){o(window).on("load",function(){o(".ba-slider--works").slick({infinite:!0,dots:!0,arrows:!0}),o(".ba-slider--team").slick({infinite:!1,dots:!1,arrows:!1,slidesToShow:1,slidesToScroll:1});var n,e=o("#map")[0],i={lat:-7.931105,lng:112.636845};n=new google.maps.Map(e,{center:i,zoom:17,disableDefaultUI:!0});var a=new google.maps.Marker({position:i,map:n}),t=new google.maps.InfoWindow({});t.open(n,a),a.addListener("click",function(){t.open(n,a)})})}(jQuery);
+//# sourceMappingURL=main.js.map
